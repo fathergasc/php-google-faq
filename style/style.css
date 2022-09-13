@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border-bottom: 2px solid lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+ul li {
+    padding-right: 1rem;
+
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+
+ul li a.active {
+    border-bottom: 3px solid #3367d6;
+    color: #3367d6;
+}
+
+.header-top-right img {
+    height: 40px;
+    width: 40px;
+}
